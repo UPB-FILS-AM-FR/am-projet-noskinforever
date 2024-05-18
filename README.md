@@ -15,7 +15,7 @@ The motivation behind this project is to explore the capabilities of motion sens
 <!-- Make sure the path to the picture is correct -->
 ![Block Diagram](blockDiagram.png)
 
-
+### Schematic
 
 ![Schematic](schematic.png)
 
