@@ -13,11 +13,11 @@ The motivation behind this project is to explore the capabilities of motion sens
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](blockDiagram.png)
 
 
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schematic.png)
 
 ### Components
 
