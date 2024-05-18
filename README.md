@@ -15,22 +15,6 @@ The motivation behind this project is to explore the capabilities of motion sens
 <!-- Make sure the path to the picture is correct -->
 ![Block Diagram](schematics/block_diagram.png)
 
- +------------------------+
- | Raspberry Pi Pico W    |
- |                        |
- |   +-----------------+  |       +------------+
- |   | I2C Interface   |------->  | MPU-6050   |
- |   +-----------------+  |       | (Sensor)   |
- |                        |       +------------+
- |   +-----------------+  |       
- |   | GPIO Pins       |  |----->  +---------+
- |   +-----------------+  |       | Buzzer  |
- |                        |       +---------+
- |                        |       
- |   +-----------------+  |----->  +-------+
- |   | GPIO Pins       |  |       |  LED  |
- |   +-----------------+  |       +-------+
- +------------------------+
 
 
 ![Schematic](schematics/kicad_schematic.png)
