@@ -1,23 +1,23 @@
-# Your Project Name
+# GyroLED
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Costea Vlad Stefan
 
 ## Description
-
+This project aims to develop a system where an LED changes its behavior based on the readings from a gyroscope. Utilizing a PI PICO W, along with an MPU6050 Gyroscope and Accelerometer module, and an LED, the project showcases real-time interaction between motion-sensing technology and visual feedback.
 ## Motivation
-
+The motivation behind this project is to explore the capabilities of motion sensors in real-world applications and to demonstrate the potential of integrating such sensors with microcontroller platforms for educational and developmental purposes.
 ## Architecture
 
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](blockDiagram.png)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schematic.png)
 
 ### Components
 
@@ -26,10 +26,9 @@
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| Raspberry Pi Pico W | Microcontroller | [69 RON]([https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61](https://www.emag.ro/placa-dezvoltare-sparkfun-raspberry-pi-pico-w-00004995/pd/DPX22WMBM/?ref=history-shopping_361111067_12161_1)) |
+| MPU6050 Module | Gyroscope & Accelerometer | [19 RON]([https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222](https://www.emag.ro/modul-accelerometru-si-giroscop-mpu6050-cl176/pd/DB606JBBM/?ref=history-shopping_361111067_38837_1)) |
+| 2.8 inch TFT LCD Display | Display Output | [58 RON]([https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110](https://www.emag.ro/afisaj-tactil-tft-lcd-240x320px-cu-cititor-sd-spi-2-8-inci-tft-28-ili9341-restouch-spi/pd/D8TNW6MBM/?ref=history-shopping_361111067_145639_1)) |
 
 ### Libraries
 
@@ -37,8 +36,10 @@
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [Pico-SDK]([link-to-lib](https://github.com/raspberrypi/pico-sdk)) | Official SDK for Raspberry Pi Pico | Used for basic microcontroller operations  |
+| [MPU6050_tockn]([[link-to-lib](https://github.com/tockn/MPU6050_tockn)]) | Arduino library for easy communication with MPU6050 | Used to interface with the MPU6050 sensor  |
+| [Adafruit_GFX]([[link-to-lib](https://github.com/adafruit/Adafruit-GFX-Library)]) | Base library for Adafruit displays | Provides essential graphics functions for TFT display  |
+| [Adafruit_ILI9341]([[link-to-lib](https://github.com/adafruit/Adafruit_ILI9341)]) | Display driver for ILI9341 chipset | Used to control the TFT LCD display  |
 
 ## Log
 
