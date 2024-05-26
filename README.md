@@ -17,7 +17,7 @@ The motivation behind this project is to explore the capabilities of motion sens
 
 ### Schematic
 
-![Schematic](schematic.png)
+![Schematic](schematic .png)
 
 ### Components
 
