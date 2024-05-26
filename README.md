@@ -37,9 +37,11 @@ The motivation behind this project is to explore the capabilities of motion sens
 | Library | Description | Usage |
 |---------|-------------|-------|
 | [Pico-SDK]([link-to-lib](https://github.com/raspberrypi/pico-sdk)) | Official SDK for Raspberry Pi Pico | Used for basic microcontroller operations  |
-| [MPU6050_tockn]([[link-to-lib](https://github.com/tockn/MPU6050_tockn)]) | Arduino library for easy communication with MPU6050 | Used to interface with the MPU6050 sensor  |
+| [Adafruit_MPU6050]([[link-to-lib](https://github.com/tockn/MPU6050_tockn)]) | Arduino library for easy communication with MPU6050 | Used to interface with the MPU6050 sensor  |
 | [Adafruit_GFX]([[link-to-lib](https://github.com/adafruit/Adafruit-GFX-Library)]) | Base library for Adafruit displays | Provides essential graphics functions for TFT display  |
 | [Adafruit_ILI9341]([[link-to-lib](https://github.com/adafruit/Adafruit_ILI9341)]) | Display driver for ILI9341 chipset | Used to control the TFT LCD display  |
+| [Wire]([[link-to-lib](https://github.com/adafruit/Adafruit_ILI9341)]) | I2C Communication Library | Provides functions to communicate with I2C/TWI devices  |
+| [Adafruit_Sensor]([[link-to-lib](https://github.com/adafruit/Adafruit_ILI9341)]) | Unified Sensor Driver | Provides a unified interface for various sensors  |
 
 ## Log
 
